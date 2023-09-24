@@ -1,0 +1,821 @@
+@charset "utf-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+li{
+    text-decoration-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    height: 50px;
+    display: flex;
+    
+    align-items:center;
+    justify-content: space-between;
+    
+}
+
+
+
+.menu{
+    width: 11%;
+    padding:5px;
+}
+
+.mainpage{
+    background-image: linear-gradient(#00000080,#00000080), url(../images/backhead.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    display: flex;
+    
+
+    
+}
+
+
+.mainpage p{
+    text-align: center;
+    color: aliceblue;
+    font-weight: 300px;
+    font-size: 20px;
+    line-height: 50px;
+    
+}
+
+.content{
+    
+    height: 100%;
+}
+
+.mainpage span{
+    font-weight:900;
+    font-size: 40px;
+    align-self: center;
+    letter-spacing: 7px;
+}
+
+.content{
+   
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainbutton{
+    border-radius: 30px;
+    width: 150px;
+
+    height: 40px;
+    background-color:#A1AE7C;
+    color: white;
+    border-width: 0;
+    font-weight: 1000;
+    
+    
+}
+
+.contentnext{
+    height: 500px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding: 10px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.contentnext h1{
+    font-size: 30px;
+
+}
+
+.crew h1{
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.contentnext p{
+    line-height: 40px;
+    font-size: 20px;
+    color: black;
+}
+
+.services{
+    background-color:#F2F4EC;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    
+    padding: 10px;   
+    text-align: center;
+}
+
+
+.services p{
+    color: black;
+}
+
+.servicehead{
+    
+    padding: 5px 0 30px 0;
+    font-size: 30px;
+}
+
+.imgsevices{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 300px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: white;
+}
+
+
+.btn{
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    background-color: F2F4EC;
+    color: black;
+    
+    font-weight: 1000;
+    align-self: center;
+}
+
+.para{
+    
+    padding: 30px 10px 20px 10px;
+}
+
+.gallery{
+    
+    text-align: center;
+    padding: 30px 10px 10px 10px;
+}
+
+.galleryh2{
+
+    padding: 10px 10px 30px 10px;
+    font-size: 30px;
+}
+
+.galleryimages div{
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+       height: 197px;
+        width: 100%;
+    
+}
+
+.lightblue{
+    padding: 10px;
+    
+    background-color: #F2F4EC;
+}
+
+.lightblue p{
+    color: black;
+}
+
+.createbulb{
+    display: flex;
+    
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10px;
+    
+
+}
+
+.bulbsize{
+    width: 60%;
+    padding-bottom: 10px;
+}
+
+.paracontrol{
+    padding-left: 30px;
+}
+
+.crew{
+    
+    text-align: center;
+    padding: 50px 10px 10px 10px;
+}
+
+.manimg{
+    padding: 10px;
+    height: 300px;
+    width: 100%;
+}
+
+.black{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 700px;
+    justify-content: space-between;
+}
+
+.black span{
+    font-size: 30px;
+    font-weight: 900;
+}
+.black h1{
+    
+    padding-bottom: 10px;
+  
+}
+
+.blacklight h1{
+    font-size: 30px;
+    font-weight: normal;
+    padding: 10px 0 20px 0;
+}
+
+.blacklight span{
+    font-weight: normal;
+
+}
+
+
+
+.ocean{
+    background-image:  linear-gradient(#00000080,#00000080),url(../images/ocean.avif);
+    height: 400px;
+    background-size: cover;   
+    color: white;
+}
+
+.ocean h2{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.blacklight{
+   
+    background-size: contain;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+
+.blacklight h4{
+    
+    padding: 15px 0px 10px 0;
+}
+
+.social-media{
+    background-color: #F2F4EC;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* padding: 10px; */
+    /* padding-top: 30px; */
+    height: 600px;
+    justify-items: center;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+    padding: 30px 10px 10px 10px;
+    justify-content: space-evenly;
+}
+
+.socialalign{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+}
+
+.social-media img{
+    width: 80px;
+}
+
+.social-media h1{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.footer{
+    background-color: black;
+    padding: 10px;
+}
+
+.footer a ,p {
+    color: white;
+}
+
+.leftfooter{
+    display: flex;
+    flex-direction: column;
+}
+
+.alignmenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-content: space-between;
+    height: 200px;
+}
+
+.contactinsta{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    padding:10px 10px 20px 10px ;
+}
+
+.contactinsta p{
+    padding-left: 10px;
+}
+
+.contactinsta img{
+    width: 30px;
+}
+
+.rightfooter img{
+    width: 100px;
+    padding-bottom: 5px;
+}
+  
+.navbar{
+    display: none;
+} 
+
+.img_div{
+    height:148px ;
+    width:100% ;
+}
+
+.manimg img{
+    /* object-position: top; */
+    object-fit: cover;
+}
+
+
+
+@media (min-width:768px){
+    .header{
+            height: 70px;
+    }
+
+    .menu{
+        width: 60px;
+    
+    }
+
+    .manimg{
+        width: 50%;
+        height: 385px;
+    }
+
+    
+
+    
+
+    .content{
+     
+        padding: 60px 80px 20px 80px ;  
+       
+    }
+
+    .mainpage{
+    align-items: center;
+    flex-direction: column;
+        
+    }
+
+    .mainpage p{
+
+        width: 350px;
+        padding-top: 50px;
+   
+
+    }
+
+    .divbutton{
+        padding-top: 40px;
+    }
+    
+    .contentnext{
+        align-items: center;
+    }
+
+    .contentnext p{
+        padding-bottom: 80px;
+        width: 600px;
+
+    }
+
+    .services{
+        height: 650px;
+        justify-content: space-evenly;
+        padding:  60px 0  ;
+        align-items: center;
+    }
+
+    .aligndiv{
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        width: 100%;
+    
+        justify-content: space-between;
+    }
+
+    .aligndiv div{
+        padding: 10px;
+
+    }
+
+    .spanservice{
+        padding-top: 20px;
+    }
+
+    
+
+    .galleryimages{
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .galleryimages div{
+        height: 197px;
+        width: 48%;
+    }
+
+
+    .lightblue{
+        display: flex;
+       
+        padding-top: 0px;
+        height: 300px;
+        padding: 0;
+        justify-content: space-around;
+    
+    }
+
+    .paracontrol{
+        padding: 0;
+  
+    }
+
+    .createbulb{
+
+        width: 29%;
+    }
+
+   
+    .createbulb h2{
+        padding: 5px;
+    }
+
+    .crewimg{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    .bulbsize img{
+        width:50px;
+    }
+
+
+    .crew h2{
+        font-size: 60px;
+    }
+
+    .crew h4{
+        font-size:14px;
+    }
+
+    .crew{
+        height: 950px;
+
+    }
+
+    .black{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 300px;
+        padding: 0;
+        align-content: space-evenly;
+    }
+
+    .black div{
+        align-self: center;
+        padding-bottom: 0;
+        width: 20%;  
+        height: 200px;      
+    }
+
+    .ocean p{
+        width: 400px;
+    
+    }
+
+    .ocean{
+        display: flex;
+    }
+
+    .blacklight{
+        margin: 0 auto;
+        align-self: center;   
+    }
+
+    .blacklight p{
+      
+        padding:10px 0 20px 0 ;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .numberblack  h2{
+        padding: 10px 0 20px 0;
+    }
+
+    .blacklight h1{
+        
+        padding-top: 10px;
+    }
+
+    .socialalign{
+        display: flex;
+        flex-direction: row;
+      
+        height: 100px;
+        
+        justify-content: space-evenly;     
+    }
+
+
+    .social-media{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 400px;
+    }
+
+    .social-media h1{
+       
+        padding:20px 20px 50px 20px ;
+    }
+
+    .footer{
+        display: flex;
+   
+        justify-content: space-between;
+    }
+
+
+    .rightfooter{
+        height: 74px;
+        text-align: right;
+       
+        padding:20px 10px 10px 10px ;
+      
+    } 
+
+    .rightfooter a{
+        color: greenyellow;
+    }
+
+   
+} 
+
+
+@media (min-width: 992px){
+    
+    .navmenu a{
+        color: black;
+    }
+
+    .header{
+        display: none;
+    }
+
+    .navbar{
+        display: block;
+        display: flex;
+        justify-content: space-between;
+       
+        height: 80px;
+        padding: 10px;
+        align-items: center;
+
+    }
+
+    .navmenu{
+        display: flex ;
+        flex-direction: row;
+        width: 350px;
+        justify-content: space-evenly;
+        
+        padding-top: 10px;
+        
+    }
+
+    .navmenu a{
+        
+    
+        font-weight:900;
+        
+    }
+
+    .manimg{
+      
+        height: 300px;
+    }
+
+    .navsocial{
+       
+        width: 100px;
+    }
+
+    .navsocial img{
+        width: 20px;
+        /* padding-top: 20px; */
+    }
+
+    .navalign{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        
+    
+    }
+
+     .desktopnavbar{
+        width: 100%;
+        justify-content: space-between;
+    } 
+
+    
+
+    .imgsevices{
+        width: 300px;
+    }
+
+   
+
+
+    .logo{
+        
+        margin-right: 230px;
+    }
+
+    .mainpage{
+        height: 600px;
+    }
+
+    .divbutton{
+        padding-bottom: 20px;
+    }   
+
+  
+    
+    .bulbsize{
+        
+        padding:10px 0 0 0;
+        width: 50%;
+    }
+    
+    .galleryimages{
+        width: 80%;
+       
+        margin: 0 auto;
+    }
+
+    .galleryimages div{
+        width: 33%;
+    }
+
+    .gallery{
+        padding-bottom: 40px;
+       
+    }
+
+    .numberblack h2{
+        padding: 10px 0 10px 0;
+    }
+    
+
+    .manimg{
+        width: 25%;
+    }
+
+    .crew{
+        height: 500px;
+    }
+
+    .alignmenu{
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        width: 350px;
+        justify-content: space-evenly;
+    }
+
+    .leftfooter{
+       
+        justify-content: center;
+    }
+
+    .alignmenu div{
+        height: 50px;
+
+    }
+
+    .contactinsta{
+        padding-left: 20px;
+    }
+
+    .footer{
+        height: 300px;
+    }
+
+    .rightfooter{
+        margin-top: 37px;
+        /* padding-top: 8  0px; */
+    }
+
+    .rightfooter p{
+        padding: 10px  0;
+    }
+
+
+    .manimg{
+     
+        height: 290px;
+    }
+}
+
+
+@media (min-width : 1440px) {
+    .aligndiv{
+        justify-content: space-around;
+    }
+
+    .crew{
+        height: 630px;
+    }
+
+    .galleryimages div{
+        height: 370px;
+    }
+
+    .manimg{
+        height: 430px;
+    }
+
+    .fit_perfect{
+        object-position: top;
+    }
+
+    .fit_class{
+        object-position: center;
+    }
+
+    
+}
